@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  width: 94%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: blue;
+}
+
+@media screen and (min-width: 360px) {
+  .container {
+    width: 96%;
+    background-color: palevioletred;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+    background-color: greenyellow;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 996px;
+    background-color: plum;
+  }
+}
+
+p {
+  text-align: center;
+  font-size: 40px;
+}
